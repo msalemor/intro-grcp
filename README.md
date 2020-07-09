@@ -29,6 +29,7 @@ gRPC stands above other solutions for the following reasons:
 ### Security
 - gRPC is implicitly secure when it's using HTTP/2 over a TLS end-to-end encrypted connection. Support for client certificate authentication (see chapter 6) further increases security and trust between client and server.
 
+<!---
 ## How gRPC approaches RPC (Remote Procedure Call)?
 
 - This pattern aims to make calls to services that run on a different machine, or in a different process, work seamlessly, like method calls in the client application. While the aims of WCF and gRPC are the same, the details of the implementation are quite different.
@@ -59,5 +60,5 @@ gRPC stands above other solutions for the following reasons:
 - Secure by default
 
 ### Bad:
-- Can be slower when in mixed mode (backend h2 but load balancer is h1 or vice versa)
-
+- Can be slower when in mixed mode (backend h2 but load balancer is h1 or vice versa)-->
+-->
