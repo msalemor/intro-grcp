@@ -61,4 +61,5 @@ gRPC stands above other solutions for the following reasons:
 
 ### Bad:
 - Can be slower when in mixed mode (backend h2 but load balancer is h1 or vice versa)-->
+
 -->
