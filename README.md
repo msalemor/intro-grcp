@@ -29,6 +29,13 @@ gRPC stands above other solutions for the following reasons:
 ### Security
 - gRPC is implicitly secure when it's using HTTP/2 over a TLS end-to-end encrypted connection. Support for client certificate authentication (see chapter 6) further increases security and trust between client and server.
 
+## Microservice Architecture 
+
+### Communicates Between Services
+
+https://dzone.com/articles/why-grpc-for-inter-microservice-communication
+
+
 <!---
 ## How gRPC approaches RPC (Remote Procedure Call)?
 
