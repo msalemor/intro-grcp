@@ -29,17 +29,12 @@ gRPC stands above other solutions for the following reasons:
 ### Security
 - gRPC is implicitly secure when it's using HTTP/2 over a TLS end-to-end encrypted connection. Support for client certificate authentication (see chapter 6) further increases security and trust between client and server.
 
-## Microservice Architecture 
-
-### Communicates Between Services
-
-https://dzone.com/articles/why-grpc-for-inter-microservice-communication
-
 ## gRPC recommended scenarios
 
 gRPC is well suited to the following scenarios:
 
 - Microservices: gRPC is designed for low latency and high throughput communication. gRPC is great for lightweight microservices where efficiency is critical.
+  - https://dzone.com/articles/why-grpc-for-inter-microservice-communication
 - Point-to-point real-time communication: gRPC has excellent support for bi-directional streaming. gRPC services can push messages in real-time without polling.
 - Polyglot environments: gRPC tooling supports all popular development languages, making gRPC a good choice for multi-language environments.
 - Network constrained environments: gRPC messages are serialized with Protobuf, a lightweight message format. A gRPC message is always smaller than an equivalent JSON message.
