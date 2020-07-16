@@ -39,6 +39,10 @@ gRPC is well suited to the following scenarios:
 - ***Polyglot environments:*** gRPC tooling supports all popular development languages, making gRPC a good choice for multi-language environments.
 - ***Network constrained environments:*** gRPC messages are serialized with Protobuf, a lightweight message format. A gRPC message is always smaller than an equivalent JSON message.
 
+## Other Reference
+
+- https://docs.microsoft.com/en-us/aspnet/core/grpc/comparison?view=aspnetcore-3.1
+
 <!---
 ## How gRPC approaches RPC (Remote Procedure Call)?
 
