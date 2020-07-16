@@ -35,6 +35,14 @@ gRPC stands above other solutions for the following reasons:
 
 https://dzone.com/articles/why-grpc-for-inter-microservice-communication
 
+## gRPC recommended scenarios
+
+gRPC is well suited to the following scenarios:
+
+- Microservices: gRPC is designed for low latency and high throughput communication. gRPC is great for lightweight microservices where efficiency is critical.
+- Point-to-point real-time communication: gRPC has excellent support for bi-directional streaming. gRPC services can push messages in real-time without polling.
+- Polyglot environments: gRPC tooling supports all popular development languages, making gRPC a good choice for multi-language environments.
+- Network constrained environments: gRPC messages are serialized with Protobuf, a lightweight message format. A gRPC message is always smaller than an equivalent JSON message.
 
 <!---
 ## How gRPC approaches RPC (Remote Procedure Call)?
